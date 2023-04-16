@@ -1,6 +1,7 @@
-export class NumbersCollection {
+import { Sorter } from './Sorter';
+export class NumbersCollection extends Sorter {
     constructor(public data: number[]){
-
+        super();
     }
 
     // make sure you can reference length without calling function directly
